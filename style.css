@@ -142,3 +142,25 @@ h2 {
 .summary-time ul li {
   padding-left: 8px;
 }
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--stone-100);
+}
+.ingredients h2 {
+  color: var(--rose-800);
+}
+.ingredients ul {
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ingredients ul li {
+  padding-left: 8px;
+}
