@@ -186,3 +186,23 @@ h2 {
 .instructions ol li {
   padding-left: 8px;
 }
+
+.nutrition {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+td {
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--stone-100);
+}
+tr:last-child td {
+  border-bottom: none;
+}
+td:last-child {
+  font-weight: bold;
+  color: var(--rose-800);
+}
